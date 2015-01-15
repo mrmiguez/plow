@@ -1,0 +1,582 @@
+<?xml version="1.0"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-01-15T15:38:48Z</responseDate>
+  <request>https://fsu.digital.flvc.org/oai2</request>
+  <ListSets>
+    <set>
+      <setSpec>fsu_acadlifemain</setSpec>
+      <setName>Academic Life</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsualumni</setSpec>
+      <setName>Alumni Collections</setName>
+    </set>
+    <set>
+      <setSpec>fsu_avf50</setSpec>
+      <setName>Art Gallery</setName>
+    </set>
+    <set>
+      <setSpec>fsu_artoncampusmain</setSpec>
+      <setName>Art on Campus</setName>
+    </set>
+    <set>
+      <setSpec>fsu_aas50</setSpec>
+      <setName>Artist Series</setName>
+    </set>
+    <set>
+      <setSpec>fsu_hpuamultimedia</setSpec>
+      <setName>Audiovisual Materials</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsubbandersoncol</setSpec>
+      <setName>Barbara Boling Anderson Collection, 1947-1950</setName>
+    </set>
+    <set>
+      <setSpec>fsu_caribbeanbooks</setSpec>
+      <setName>Books on the Caribbean</setName>
+    </set>
+    <set>
+      <setSpec>fsu_root</setSpec>
+      <setName>Browse Collections</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsucmjkoesycol</setSpec>
+      <setName>Cal and Mary Jane Koesy Collection, 1944-1952</setName>
+    </set>
+    <set>
+      <setSpec>fsu_caribbeancolmain</setSpec>
+      <setName>Caribbean Collections</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsucregnacol</setSpec>
+      <setName>Carmine Regna Collection, ca. 1949-1954</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwcdrichardsonscrap</setSpec>
+      <setName>Carolyne Doyle Richardson Scrapbook, ca. 1926</setName>
+    </set>
+    <set>
+      <setSpec>fsu_chwalkercol</setSpec>
+      <setName>Charles H. Walker Collection, 1952-1953</setName>
+    </set>
+    <set>
+      <setSpec>fsu_peppermathewspapers</setSpec>
+      <setName>
+Charles R. Mathews Papers on Medicare Implementation
+</setName>
+    </set>
+    <set>
+      <setSpec>fsu_civilwarmain</setSpec>
+      <setName>Civil War Era Materials</setName>
+    </set>
+    <set>
+      <setSpec>fsu_flc50</setSpec>
+      <setName>Class Schedules</setName>
+    </set>
+    <set>
+      <setSpec>fsu_claudepepperphotos</setSpec>
+      <setName>Claude Pepper Photograph Collection</setName>
+    </set>
+    <set>
+      <setSpec>fsu_hpclubdownunder</setSpec>
+      <setName>Club Downunder Posters</setName>
+    </set>
+    <set>
+      <setSpec>fsu_colgradschpubsmain</setSpec>
+      <setName>College and Graduate School Publications</setName>
+    </set>
+    <set>
+      <setSpec>fsu_afs50</setSpec>
+      <setName>College of Arts and Sciences</setName>
+    </set>
+    <set>
+      <setSpec>fsu_diraccombinatorics</setSpec>
+      <setName>Combinatorics</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fce06</setSpec>
+      <setName>Commencement</setName>
+    </set>
+    <set>
+      <setSpec>fsu_ml_confederate</setSpec>
+      <setName>Confederate Sheet Music Collection</setName>
+    </set>
+    <set>
+      <setSpec>fsu_acw50</setSpec>
+      <setName>Conferences and Workshops</setName>
+    </set>
+    <set>
+      <setSpec>fsu_cuniformtablets</setSpec>
+      <setName>Cuneiform Tablet Collection</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsucampbellcollection</setSpec>
+      <setName>Doak S. Campbell Collection</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsudfaulscol</setSpec>
+      <setName>Don Fauls Collection, 1950s-1970s</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsuddpickettcol</setSpec>
+      <setName>Donald DeGraffenreid Pickett Collection, 1958-1959</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsuelvancecol</setSpec>
+      <setName>Earl Lynn Vance Collection, 1928-1974</setName>
+    </set>
+    <set>
+      <setSpec>fsu_learcollection</setSpec>
+      <setName>Edward Lear's Book of Nonsense</setName>
+    </set>
+    <set>
+      <setSpec>fsu_modernetds</setSpec>
+      <setName>Electronic Theses and Dissertations 2003-present</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwebtaylorscrap</setSpec>
+      <setName>Elizabeth Byrd Taylor Scrapbook, ca. 1922-1926</setName>
+    </set>
+    <set>
+      <setSpec>fsu_ave50</setSpec>
+      <setName>Enrollment</setName>
+    </set>
+    <set>
+      <setSpec>fsu_aes50</setSpec>
+      <setName>Examination Schedules</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsuhistphotos</setSpec>
+      <setName>FSU Historic Photographs</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsulivesmain</setSpec>
+      <setName>
+FSU Lives: Portal to the Past, Prologue to the Future
+</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsufaculty</setSpec>
+      <setName>Faculty Collections</setName>
+    </set>
+    <set>
+      <setSpec>fsu_floridahandbooks</setSpec>
+      <setName>Florida Handbooks</setName>
+    </set>
+    <set>
+      <setSpec>fsu_floridahh</setSpec>
+      <setName>Florida History and Heritage</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwmain</setSpec>
+      <setName>Florida State College for Women (1905-1947)</setName>
+    </set>
+    <set>
+      <setSpec>fsu_hpfsumain</setSpec>
+      <setName>Florida State University (1947-)</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsubulletins</setSpec>
+      <setName>Florida State University Bulletins</setName>
+    </set>
+    <set>
+      <setSpec>fsu_yearbooks</setSpec>
+      <setName>Florida State University Yearbooks</setName>
+    </set>
+    <set>
+      <setSpec>fsu_avc50</setSpec>
+      <setName>Flying High Circus</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsuflyinghighcircusphotos</setSpec>
+      <setName>Flying High Circus Photographs</setName>
+    </set>
+    <set>
+      <setSpec>fsu_football50</setSpec>
+      <setName>Football</setName>
+    </set>
+    <set>
+      <setSpec>fsu_nap01</setSpec>
+      <setName>
+French Revolution Collection on Camille Desmoulins, Lucile Duplesis, and Arthur Dillon, 1702-1876
+</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsugoaaloftoncol</setSpec>
+      <setName>
+Giles O. and Anicia Aleman Lofton Collection, ca. 1947-1950
+</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fgb04</setSpec>
+      <setName>Graduate Bulletin</setName>
+    </set>
+    <set>
+      <setSpec>fsu_afg50</setSpec>
+      <setName>Gymkana</setName>
+    </set>
+    <set>
+      <setSpec>fsu_sayrecircus</setSpec>
+      <setName>Harrison Sayre Circus Collection</setName>
+    </set>
+    <set>
+      <setSpec>fsu_hpmain</setSpec>
+      <setName>Heritage Protocol &amp; University Archives</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwhkurzcol</setSpec>
+      <setName>Herman Kurz Collection, ca. 1923-1948</setName>
+    </set>
+    <set>
+      <setSpec>fsu_avh50</setSpec>
+      <setName>Homecoming</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsi07</setSpec>
+      <setName>Investiture Ceremonies</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsujbmittanphotos</setSpec>
+      <setName>J. Barry Mittan Photograph Collection, 1965-1971</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsujmilesphotos</setSpec>
+      <setName>Jack Miles Photograph Collection, ca. 1950-1955</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsujmarshickscrap</setSpec>
+      <setName>Jean Marshick F Club Scrapbook, 1957-1958</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwjgcooperscrap</setSpec>
+      <setName>Jewell Genevieve Cooper Scrapbook, ca. 1924-1930</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsujbljoanoscol</setSpec>
+      <setName>Jim and Betty Lou Joanos Collection, 1909-1957</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsujcunninghamcol</setSpec>
+      <setName>Joan Cunningham Collection, 1953-1957</setName>
+    </set>
+    <set>
+      <setSpec>fsu_juvlit</setSpec>
+      <setName>Juvenile Literature</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwkparkscrap</setSpec>
+      <setName>Kathrine Park Scrapbook, ca. 1920s</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwljwellsscrap</setSpec>
+      <setName>L. Janet Wells Scrapbook Collection, 1938-1942</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwlqbensonscrap</setSpec>
+      <setName>Laura Quayle Benson Scrapbook, 1917-1919</setName>
+    </set>
+    <set>
+      <setSpec>fsu_afl55</setSpec>
+      <setName>Lecture Programs</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsulmmandyckphotos</setSpec>
+      <setName>Lillian M. Mandyck Photograph Album, ca. 1947-1951</setName>
+    </set>
+    <set>
+      <setSpec>fsu_lmmandyckalbum</setSpec>
+      <setName>Lillian M. Mandyck Photograph Album, ca. 1947-1951</setName>
+    </set>
+    <set>
+      <setSpec>fsu_civilwarmanuscripts</setSpec>
+      <setName>Manuscripts</setName>
+    </set>
+    <set>
+      <setSpec>fsu_caribbeanmaps</setSpec>
+      <setName>Maps of the Caribbean, 1649-1832</setName>
+    </set>
+    <set>
+      <setSpec>fsu_avm50</setSpec>
+      <setName>Marching Chiefs</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwmelstonscrap</setSpec>
+      <setName>Marie Elston Scrapbook, ca. 1927-1929</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwmlstinecol</setSpec>
+      <setName>Marion Laura Stine Collection, 1917-1921</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsumfleecol</setSpec>
+      <setName>Marjorie Fogarty Lee Collection, 1948-1952</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwmeheilertsencol</setSpec>
+      <setName>
+Martha Ellen Hackl Eilertsen Collection, ca. 1940-1943
+</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsumahuntcol</setSpec>
+      <setName>Mary Alice Hunt Collection, 1946-1992</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwmcnelsonscrap</setSpec>
+      <setName>Mary Cobb Nelson Scrapbook, 1923-1952</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsumewilliamsphotos</setSpec>
+      <setName>
+Mary Ellerbe Williams Photograph Collection, ca. 1958-1959
+</setName>
+    </set>
+    <set>
+      <setSpec>fsu_mewilliamsphotos</setSpec>
+      <setName>
+Mary Ellerbe Williams Photograph Collection, ca. 1958-1959
+</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsumgallantcol</setSpec>
+      <setName>Mary Gallant Collection, ca. 1935-1965</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwmlsingeltarycol</setSpec>
+      <setName>Mary Leora Singeltary Collection, 1919-1923</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwmlnorwoodcol</setSpec>
+      <setName>Mary Lou Norwood Collection, 1941-2007</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsumtwillisphotos</setSpec>
+      <setName>
+Mary Tarver Willis Photograph Collection, 1947-1951
+</setName>
+    </set>
+    <set>
+      <setSpec>fsu_mtwillisphotos</setSpec>
+      <setName>
+Mary Tarver Willis Photograph Collection, 1947-1951
+</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsumlstonecol</setSpec>
+      <setName>Mode L. Stone Collection</setName>
+    </set>
+    <set>
+      <setSpec>fsu_amp55</setSpec>
+      <setName>Musical Performances</setName>
+    </set>
+    <set>
+      <setSpec>fsu_napcolmain</setSpec>
+      <setName>Napoleonic Collections</setName>
+    </set>
+    <set>
+      <setSpec>fsu_avp51</setSpec>
+      <setName>Panhellenic Rushing Rules</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsuparrantscol</setSpec>
+      <setName>Pat Arrants Collection 1955-1958</setName>
+    </set>
+    <set>
+      <setSpec>fsu_diraccol</setSpec>
+      <setName>Paul A.M. Dirac Collection</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwpbteaguecol</setSpec>
+      <setName>Peggy Barker Teague Collection, 1939-1943</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwpagatescol</setSpec>
+      <setName>Philomene Asher Gates Collection, 1934-1938</setName>
+    </set>
+    <set>
+      <setSpec>fsu_spc12</setSpec>
+      <setName>Photographs</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwphotosmain</setSpec>
+      <setName>Photographs</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsuphotosmain</setSpec>
+      <setName>Photographs</setName>
+    </set>
+    <set>
+      <setSpec>fsu_wwipoetry</setSpec>
+      <setName>Poetry during World War I</setName>
+    </set>
+    <set>
+      <setSpec>fsu_diracpolyequations</setSpec>
+      <setName>Polynomial Equations</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwpostcards</setSpec>
+      <setName>Postcards</setName>
+    </set>
+    <set>
+      <setSpec>fsu_spc11</setSpec>
+      <setName>Posters</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsp50</setSpec>
+      <setName>Pow Wow Student Handbooks</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsupresmarshallcol</setSpec>
+      <setName>President Stanley Marshall Collection, 1969-1976</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsr50</setSpec>
+      <setName>President's Report</setName>
+    </set>
+    <set>
+      <setSpec>fsu_retroetds</setSpec>
+      <setName>Retrospective Theses and Dissertations 1952-2002</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsurkurrascol</setSpec>
+      <setName>Richard Kurras Collection, ca. 1951-1952</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsurgmckenziephotos</setSpec>
+      <setName>Robert G. McKenzie Photograph Collection, 1950</setName>
+    </set>
+    <set>
+      <setSpec>fsu_rgmckenziephotos</setSpec>
+      <setName>Robert G. McKenzie Photograph Collection, 1950</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsuslamarcol</setSpec>
+      <setName>Sam Lamar Collection, 1938-2005</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsusccoopercol</setSpec>
+      <setName>Sara Culbreth Cooper Collection, 1947-1950</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwshwildercol</setSpec>
+      <setName>Sarah Henderson Wilder Collection, ca. 1928</setName>
+    </set>
+    <set>
+      <setSpec>fsu_asb50</setSpec>
+      <setName>School of Business</setName>
+    </set>
+    <set>
+      <setSpec>fsu_schoolofdance</setSpec>
+      <setName>School of Dance</setName>
+    </set>
+    <set>
+      <setSpec>fsu_ave52</setSpec>
+      <setName>School of Education</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fhe55</setSpec>
+      <setName>School of Home Economics</setName>
+    </set>
+    <set>
+      <setSpec>fsu_asj50</setSpec>
+      <setName>School of Journalism</setName>
+    </set>
+    <set>
+      <setSpec>fsu_alp55</setSpec>
+      <setName>School of Library Training and Service</setName>
+    </set>
+    <set>
+      <setSpec>fsu_avn50</setSpec>
+      <setName>School of Nursing</setName>
+    </set>
+    <set>
+      <setSpec>fsu_apa55</setSpec>
+      <setName>School of Public Administration</setName>
+    </set>
+    <set>
+      <setSpec>fsu_asw55</setSpec>
+      <setName>School of Social Welfare</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsuscrapbooks</setSpec>
+      <setName>Scrapbooks</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwscrapbooks</setSpec>
+      <setName>Scrapbooks</setName>
+    </set>
+    <set>
+      <setSpec>fsu_seriesapepperphotos</setSpec>
+      <setName>Series A: Claude Pepper Photographs</setName>
+    </set>
+    <set>
+      <setSpec>fsu_seriesbpepperphotos</setSpec>
+      <setName>Series B: Claude Pepper in Groups</setName>
+    </set>
+    <set>
+      <setSpec>fsu_seriescpepperphotos</setSpec>
+      <setName>Series C: Claude and Mildred Pepper Photographs</setName>
+    </set>
+    <set>
+      <setSpec>fsu_seriesdpepperphotos</setSpec>
+      <setName>Series D: Pepper and Webster Family Photographs</setName>
+    </set>
+    <set>
+      <setSpec>fsu_claudepepperphotosseriesE</setSpec>
+      <setName>Series E: Other People</setName>
+    </set>
+    <set>
+      <setSpec>fsu_seriesfpepperphotos</setSpec>
+      <setName>Series F: Places</setName>
+    </set>
+    <set>
+      <setSpec>fsu_seriesgpepperphotos</setSpec>
+      <setName>Series G: Mildred Pepper Photographs</setName>
+    </set>
+    <set>
+      <setSpec>fsu_stucamplifemain</setSpec>
+      <setName>Student and Campus Life</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsushmccollumcol</setSpec>
+      <setName>Sue Herndon McCollum Collection, 1952-1957</setName>
+    </set>
+    <set>
+      <setSpec>fsu_avd50</setSpec>
+      <setName>Theater and Dance Performances</setName>
+    </set>
+    <set>
+      <setSpec>fsu_thesesanddissertationsmain</setSpec>
+      <setName>Theses and Dissertations</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsutawilliamscol</setSpec>
+      <setName>Thomas A. Williams Collection, 1954-1957</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fub05</setSpec>
+      <setName>Undergraduate Bulletin</setName>
+    </set>
+    <set>
+      <setSpec>fsu_undergradhonors</setSpec>
+      <setName>Undergraduate Honors Theses</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsulibrariesphotos</setSpec>
+      <setName>University Libraries</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fscwvjlewisscrap</setSpec>
+      <setName>Victoria J. Lewis Scrapbook, 1940-1944</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsuwsmithcol</setSpec>
+      <setName>William Smith Collection, ca. 1951-1955</setName>
+    </set>
+    <set>
+      <setSpec>fsu_fsy50</setSpec>
+      <setName>Yearbooks</setName>
+    </set>
+    <resumptionToken completeListSize="139" cursor="100"/>
+  </ListSets>
+</OAI-PMH>
