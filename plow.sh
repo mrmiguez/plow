@@ -14,4 +14,4 @@ for i in ${setList[@]}; do
 	# Set up the harvest
 	python ~/bin/pyoaiharvester/pyoaiharvest.py -l http://fsu.digital.flvc.org/oai2 -s $i -o harvest/$i$iso.xml
 done
-printf "\n\n#Harvest complete"
+printf "\n\nHarvest complete."
