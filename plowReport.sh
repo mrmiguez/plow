@@ -6,13 +6,13 @@ touch fsudlReport$iso.csv
 # Read set list into array
 source setList.txt
 
-echo 'setSpec, indexNumber' >>fsudlReport$iso.csv
+echo 'setSpec, # of IID' >>fsudlReport$iso.csv
 
 # Setting up the report loop
 for i in ${setList[@]}; do
-	echo $i "," $f >>fsudlReport$iso.csv
+	echo $i "," `python ~/bin/dc_breaker/dc_breaker.py -e identifier ./harvest/$i* | wc -l` >>fsudlReport$iso.csv
 done
-printf "\n\nReport filed."
+printf "\n\nReport filed.\n"
 	
 
 
