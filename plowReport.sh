@@ -2,7 +2,7 @@
 
 # Define breaker function
 breaker () {
-	python ~/bin/dc_breaker/dc_breaker.py -e $1 $2
+	python ~/bin/dc_breaker/dc_breaker.py -e $1 $2 | wc -l
 }
 # Define counting function
 count () {
@@ -21,9 +21,12 @@ echo 'setSpec, # of records, # of subjects, avg subjects per record' >>fsudlRepo
 # Setting up the report loop
 for i in ${setList[@]}; do
 	echo "Analysing $i"
-	echo $i "," `count $i* record` "," `breaker subject $i* | wc -l` "," $(( `breaker subject $i* | wc =l` / `count $i* record` )) >>fsudlReport$iso.csv
+	recNum=$(( `count ./harvest/$i* record` / 2 ))
+	if [ $recNum -eq 0 ]; then
+		echo "$i, 0, 0, 0" >>fsudlReport$iso.csv
+	else
+		subNum=`breaker subject ./harvest/$i*`
+		echo $i "," $recNum "," $subNum "," $(( $subNum / $recNum )) >>fsudlReport$iso.csv
+	fi
 done
 printf "\nReport filed.\n\n"
-	
-
-
