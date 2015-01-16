@@ -1,4 +1,6 @@
 #!/bin/bash
+# Configuration: Change http://yourOAIfeedHere on line 24 to the URL of your digital library's OAI-PMH feed.  
+# fsudlReportYYYY-MM-DD.csv is the default output file. Replace fsudlReport to change the output file.
 
 # Ready the output directory
 rm -rf ./harvest
@@ -12,19 +14,18 @@ count () {
 	xmlstarlet el $1 | grep $2 | wc -l
 }
 
-
 # Reading set data into the array
 source setList.txt
 iso=`date -I`
 
 # Setting up the loop
 for i in ${setList[@]}; do
-	# Set up the harvest
-	python ~/bin/pyoaiharvester/pyoaiharvest.py -l http://fsu.digital.flvc.org/oai2 -s $i -o harvest/$i$iso.xml
+	# Set up the harvest. The URL for you library's OAI feed goes between -l and -s
+	python ~/bin/pyoaiharvester/pyoaiharvest.py -l http://yourOAIfeedHere -s $i -o harvest/$i$iso.xml
 done
 printf "\n\nHarvest complete.\n\n"
 
-# Start report
+# Start report. Change all instances of fsudlReport to what you want your output report to be called.
 touch fsudlReport$iso.csv
 echo 'setSpec, # of records, # of subjects, avg subjects per record' >>fsudlReport$iso.csv
 

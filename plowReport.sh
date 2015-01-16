@@ -1,4 +1,6 @@
 #!/bin/bash
+# Configuration:
+# fsudlReportYYYY-MM-DD.csv is the default output file. Change all instances of fsudlReport to change the output.
 
 # Define report functions
 breaker () {
