@@ -21,7 +21,7 @@ echo 'setSpec, # of records, # of subjects, avg subjects per record' >>fsudlRepo
 # Setting up the report loop
 for i in ${setList[@]}; do
 	echo "Analysing $i"
-	recNum=$(( `count ./harvest/$i* record` / 2 ))
+	recNum=`count ./harvest/$i* record$`
 	if [ $recNum -eq 0 ]; then
 		echo "$i, 0, 0, 0" >>fsudlReport$iso.csv
 	else
