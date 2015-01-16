@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Define breaker function
+# Define report functions
 breaker () {
 	python ~/bin/dc_breaker/dc_breaker.py -e $1 $2 | wc -l
 }
