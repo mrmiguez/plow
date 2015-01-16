@@ -40,3 +40,7 @@ for i in ${setList[@]}; do
 	fi
 done
 printf "\nReport filed.\n\n"
+
+# archive harvest
+tar cvf - ./harvest/* | gzip > fsudlharvest$iso.tar.gz
+printf "\nResults archived.\n\n"
