@@ -21,7 +21,7 @@ echo 'setSpec, # of records, # of subjects, avg subjects per record' >>fsudlRepo
 # Setting up the report loop
 for i in ${setList[@]}; do
 	echo "Analysing $i"
-	echo $i "," `count $i* record` "," `breaker subject $i* | wc -l` "," `breaker subject $i* / count $i* record` >>fsudlReport$iso.csv
+	echo $i "," `count $i* record` "," `breaker subject $i* | wc -l` "," $(( `breaker subject $i* | wc =l` / `count $i* record` )) >>fsudlReport$iso.csv
 done
 printf "\nReport filed.\n\n"
 	
